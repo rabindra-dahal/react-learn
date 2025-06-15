@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ActivityIndicator, Alert, Button, Modal, StatusBar, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Button, Modal, StatusBar, StyleSheet, Text, View } from 'react-native';
 
 const Index = () => {
   const [modalVisible, setModalVisible] = useState(false);
@@ -17,22 +17,6 @@ const Index = () => {
       />
 
       <ActivityIndicator size={'large'} color={'blue'} />
-      <Button title='Alert options'
-        onPress={
-          () =>{
-            Alert.alert('Invalid Data','DOB in Incorrect Format',[
-              {
-                text: 'Cancel',
-                onPress: ()=> console.log('Cancel Pressed')
-              },
-              {
-                text: 'Ok',
-                onPress: ()=> console.log('Ok Pressed')
-              }
-            ])
-          }
-        }
-      />
       <Button title="Press to see Modal" onPress={toggleModal} />
 
 
