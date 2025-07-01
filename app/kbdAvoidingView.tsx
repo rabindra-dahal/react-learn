@@ -1,13 +1,13 @@
 import {
-  Alert,
-  Button,
-  Keyboard,
-  KeyboardAvoidingView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableWithoutFeedback,
-  View
+    Alert,
+    Button,
+    Keyboard,
+    KeyboardAvoidingView,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableWithoutFeedback,
+    View
 } from 'react-native';
 
 export default function App() {
